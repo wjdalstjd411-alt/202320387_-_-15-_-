@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Samsung Electronics CEO는 누구인가?",
+    "ground_truth": "Han Jong-hee"
+  },
+  {
+    "question": "Samsung SDS CEO는 누구인가?",
+    "ground_truth": "Hwang Sung-woo"
+  },
+  {
+    "question": "Samsung Biologics CEO는 누구인가?",
+    "ground_truth": "John Rim"
+  },
+  {
+    "question": "Naver CEO는 누구인가?",
+    "ground_truth": "Choi Soo-yeon"
+  },
+  {
+    "question": "Kakao CEO는 누구인가?",
+    "ground_truth": "Chung Shin-a"
+  },
+  {
+    "question": "Coupang CEO는 누구인가?",
+    "ground_truth": "Kim Beom-seok"
+  },
+  {
+    "question": "SK Hynix CEO는 누구인가?",
+    "ground_truth": "Park Jung-ho"
+  },
+  {
+    "question": "SK Telecom CEO는 누구인가?",
+    "ground_truth": "Lee Hyun-seok"
+  },
+  {
+    "question": "Hyundai Motor CEO는 누구인가?",
+    "ground_truth": "Kim Dong-wook"
+  },
+  {
+    "question": "LG Electronics CEO는 누구인가?",
+    "ground_truth": "Choi Min-jun"
+  },
+
+  {
+    "question": "Han Jong-hee는 어느 회사 CEO인가?",
+    "ground_truth": "Samsung Electronics"
+  },
+  {
+    "question": "Hwang Sung-woo는 어느 회사 CEO인가?",
+    "ground_truth": "Samsung SDS"
+  },
+  {
+    "question": "John Rim은 어느 회사 CEO인가?",
+    "ground_truth": "Samsung Biologics"
+  },
+  {
+    "question": "Choi Soo-yeon은 어느 회사 CEO인가?",
+    "ground_truth": "Naver"
+  },
+  {
+    "question": "Chung Shin-a는 어느 회사 CEO인가?",
+    "ground_truth": "Kakao"
+  },
+  {
+    "question": "Kim Beom-seok은 어느 회사 CEO인가?",
+    "ground_truth": "Coupang"
+  },
+  {
+    "question": "Park Jung-ho는 어느 회사 CEO인가?",
+    "ground_truth": "SK Hynix"
+  },
+  {
+    "question": "Lee Hyun-seok은 어느 회사 CEO인가?",
+    "ground_truth": "SK Telecom"
+  },
+  {
+    "question": "Kim Dong-wook은 어느 회사 CEO인가?",
+    "ground_truth": "Hyundai Motor"
+  },
+  {
+    "question": "Choi Min-jun은 어느 회사 CEO인가?",
+    "ground_truth": "LG Electronics"
+  },
+
+  {
+    "question": "Samsung Electronics CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Inha University"
+  },
+  {
+    "question": "Samsung SDS CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Seoul National University"
+  },
+  {
+    "question": "Samsung Biologics CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Harvard University"
+  },
+  {
+    "question": "Naver CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "KAIST"
+  },
+  {
+    "question": "Kakao CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Yonsei University"
+  },
+  {
+    "question": "Coupang CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Harvard University"
+  },
+  {
+    "question": "SK Hynix CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Korea University"
+  },
+  {
+    "question": "SK Telecom CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "POSTECH"
+  },
+  {
+    "question": "Hyundai Motor CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Hanyang University"
+  },
+  {
+    "question": "LG Electronics CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Sungkyunkwan University"
+  }
+]

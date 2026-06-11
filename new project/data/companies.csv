@@ -1,0 +1,21 @@
+company_id,company_name,industry,founded_year
+C001,Samsung Electronics,Electronics,1969
+C002,Samsung SDS,IT Services,1985
+C003,Samsung Biologics,Biotechnology,2011
+C004,SK Hynix,Semiconductor,1983
+C005,SK Telecom,Telecommunications,1984
+C006,Naver,Internet,1999
+C007,Kakao,Internet,2010
+C008,Coupang,E-commerce,2010
+C009,Hyundai Motor,Automotive,1967
+C010,LG Electronics,Electronics,1958
+C011,Krafton,Gaming,2018
+C012,NCSoft,Gaming,1997
+C013,Netmarble,Gaming,2000
+C014,Musinsa,Fashion Platform,2001
+C015,Zigzag,Fashion Platform,2015
+C016,Danggeun Market,Local Commerce,2015
+C017,Kurly,E-commerce,2015
+C018,Toss,Fintech,2013
+C019,Baemin,Food Delivery,2010
+C020,Viva Republica,Fintech,2013

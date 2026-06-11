@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Samsung Electronics CEO는 누구인가?",
+    "ground_truth": "Han Jong-hee",
+    "answer": "제공된 정보에는 Samsung Electronics CEO에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: Samsung Electronics",
+      "company_name: Samsung Electronics",
+      "company_name: Samsung Electronics",
+      "company_name: Samsung Electronics",
+      "company_name: Samsung Electronics"
+    ]
+  },
+  {
+    "question": "Samsung SDS CEO는 누구인가?",
+    "ground_truth": "Hwang Sung-woo",
+    "answer": "Samsung SDS CEO는 Hwang Sung-woo입니다.",
+    "contexts": [
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS",
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS",
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS",
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS",
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS"
+    ]
+  },
+  {
+    "question": "Samsung Biologics CEO는 누구인가?",
+    "ground_truth": "John Rim",
+    "answer": "제공된 정보에는 Samsung Biologics CEO에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: Samsung Biologics",
+      "company_name: Samsung Biologics",
+      "company_name: Samsung Biologics",
+      "company_name: Samsung Biologics",
+      "company_name: Samsung Biologics"
+    ]
+  },
+  {
+    "question": "Naver CEO는 누구인가?",
+    "ground_truth": "Choi Soo-yeon",
+    "answer": "제공된 정보에는 Naver CEO에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: Naver",
+      "company_name: Naver",
+      "company_name: Naver",
+      "company_name: Naver",
+      "company_name: Naver"
+    ]
+  },
+  {
+    "question": "Kakao CEO는 누구인가?",
+    "ground_truth": "Chung Shin-a",
+    "answer": "제공된 정보에는 Kakao CEO에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: Kakao",
+      "company_name: Kakao",
+      "company_name: Kakao",
+      "company_name: Kakao",
+      "company_name: Kakao"
+    ]
+  }
+]

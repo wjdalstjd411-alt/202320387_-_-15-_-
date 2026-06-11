@@ -1,0 +1,87 @@
+source,relation,target
+Han Jong-hee,CEO_OF,Samsung Electronics
+Hwang Sung-woo,CEO_OF,Samsung SDS
+John Rim,CEO_OF,Samsung Biologics
+Choi Soo-yeon,CEO_OF,Naver
+Chung Shin-a,CEO_OF,Kakao
+Kim Beom-seok,CEO_OF,Coupang
+Park Jung-ho,CEO_OF,SK Hynix
+Lee Hyun-seok,CEO_OF,SK Telecom
+Kim Dong-wook,CEO_OF,Hyundai Motor
+Choi Min-jun,CEO_OF,LG Electronics
+Lee Seung-ho,CEO_OF,Krafton
+Park Ji-hoon,CEO_OF,NCSoft
+Kang Min-soo,CEO_OF,Netmarble
+Yoon Tae-ho,CEO_OF,Musinsa
+Jung Woo-jin,CEO_OF,Zigzag
+Seo Ji-hyun,CEO_OF,Danggeun Market
+Han Soo-bin,CEO_OF,Kurly
+Kim Ji-won,CEO_OF,Toss
+Lee Chan-young,CEO_OF,Baemin
+Park Ye-rin,CEO_OF,Viva Republica
+
+Han Jong-hee,GRADUATED_FROM,Inha University
+Hwang Sung-woo,GRADUATED_FROM,Seoul National University
+John Rim,GRADUATED_FROM,Harvard University
+Choi Soo-yeon,GRADUATED_FROM,KAIST
+Chung Shin-a,GRADUATED_FROM,Yonsei University
+Kim Beom-seok,GRADUATED_FROM,Harvard University
+Park Jung-ho,GRADUATED_FROM,Korea University
+Lee Hyun-seok,GRADUATED_FROM,POSTECH
+Kim Dong-wook,GRADUATED_FROM,Hanyang University
+Choi Min-jun,GRADUATED_FROM,Sungkyunkwan University
+Lee Seung-ho,GRADUATED_FROM,Stanford University
+Park Ji-hoon,GRADUATED_FROM,MIT
+Kang Min-soo,GRADUATED_FROM,UC Berkeley
+Yoon Tae-ho,GRADUATED_FROM,Carnegie Mellon University
+Jung Woo-jin,GRADUATED_FROM,University of Cambridge
+Seo Ji-hyun,GRADUATED_FROM,University of Oxford
+Han Soo-bin,GRADUATED_FROM,KAIST
+Kim Ji-won,GRADUATED_FROM,Yonsei University
+Lee Chan-young,GRADUATED_FROM,Seoul National University
+Park Ye-rin,GRADUATED_FROM,Hanyang University
+
+Samsung Electronics,INVESTED_IN,Samsung SDS
+Samsung Electronics,INVESTED_IN,Samsung Biologics
+Samsung Electronics,INVESTED_IN,SK Hynix
+Samsung Electronics,INVESTED_IN,Krafton
+
+Naver,INVESTED_IN,Krafton
+Naver,INVESTED_IN,Musinsa
+Naver,INVESTED_IN,Zigzag
+Naver,INVESTED_IN,Danggeun Market
+
+Kakao,INVESTED_IN,Musinsa
+Kakao,INVESTED_IN,Zigzag
+Kakao,INVESTED_IN,Danggeun Market
+Kakao,INVESTED_IN,Kurly
+
+Coupang,INVESTED_IN,Kurly
+Coupang,INVESTED_IN,Baemin
+
+SK Telecom,INVESTED_IN,Toss
+SK Telecom,INVESTED_IN,Viva Republica
+
+LG Electronics,INVESTED_IN,NCSoft
+LG Electronics,INVESTED_IN,Netmarble
+
+Hyundai Motor,INVESTED_IN,Toss
+Hyundai Motor,INVESTED_IN,Kakao
+
+Krafton,INVESTED_IN,Netmarble
+Netmarble,INVESTED_IN,NCSoft
+
+Samsung Electronics,SUBSIDIARY_OF,Samsung Group
+Samsung SDS,SUBSIDIARY_OF,Samsung Group
+Samsung Biologics,SUBSIDIARY_OF,Samsung Group
+
+SK Hynix,SUBSIDIARY_OF,SK Group
+SK Telecom,SUBSIDIARY_OF,SK Group
+
+LG Electronics,SUBSIDIARY_OF,LG Group
+
+Hyundai Motor,SUBSIDIARY_OF,Hyundai Group
+
+Kakao,SUBSIDIARY_OF,Kakao Group
+
+Naver,SUBSIDIARY_OF,Naver Group

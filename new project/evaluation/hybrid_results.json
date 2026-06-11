@@ -1,0 +1,371 @@
+[
+  {
+    "question": "Samsung Electronics CEO는 누구인가?",
+    "ground_truth": "Han Jong-hee",
+    "answer": "Samsung Electronics CEO는 Han Jong-hee입니다.",
+    "contexts": [
+      "source: Han Jong-hee\nrelation: CEO_OF\ntarget: Samsung Electronics",
+      "company_name: Samsung Electronics",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung SDS",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung Biologics",
+      "source: Samsung Electronics\nrelation: SUBSIDIARY_OF\ntarget: Samsung Group",
+      "company_id: C001\ncompany_name: Samsung Electronics\nindustry: Electronics\nfounded_year: 1969"
+    ]
+  },
+  {
+    "question": "Samsung SDS CEO는 누구인가?",
+    "ground_truth": "Hwang Sung-woo",
+    "answer": "Samsung SDS CEO는 Hwang Sung-woo입니다.",
+    "contexts": [
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS",
+      "company_name: Samsung SDS",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung SDS",
+      "source: Samsung SDS\nrelation: SUBSIDIARY_OF\ntarget: Samsung Group",
+      "company_id: C002\ncompany_name: Samsung SDS\nindustry: IT Services\nfounded_year: 1985"
+    ]
+  },
+  {
+    "question": "Samsung Biologics CEO는 누구인가?",
+    "ground_truth": "John Rim",
+    "answer": "Samsung Biologics CEO는 John Rim입니다.",
+    "contexts": [
+      "company_name: Samsung Biologics",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung Biologics",
+      "source: Samsung Biologics\nrelation: SUBSIDIARY_OF\ntarget: Samsung Group",
+      "source: John Rim\nrelation: CEO_OF\ntarget: Samsung Biologics",
+      "company_id: C003\ncompany_name: Samsung Biologics\nindustry: Biotechnology\nfounded_year: 2011"
+    ]
+  },
+  {
+    "question": "Naver CEO는 누구인가?",
+    "ground_truth": "Choi Soo-yeon",
+    "answer": "제공된 정보에는 Naver CEO에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: Naver",
+      "source: Naver\nrelation: SUBSIDIARY_OF\ntarget: Naver Group",
+      "source: Naver\nrelation: INVESTED_IN\ntarget: Zigzag",
+      "source: Naver\nrelation: INVESTED_IN\ntarget: Musinsa",
+      "source: Naver\nrelation: INVESTED_IN\ntarget: Krafton"
+    ]
+  },
+  {
+    "question": "Kakao CEO는 누구인가?",
+    "ground_truth": "Chung Shin-a",
+    "answer": "제공된 정보에는 Kakao CEO에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: Kakao",
+      "source: Kakao\nrelation: SUBSIDIARY_OF\ntarget: Kakao Group",
+      "source: Kakao\nrelation: INVESTED_IN\ntarget: Zigzag",
+      "source: Kakao\nrelation: INVESTED_IN\ntarget: Musinsa",
+      "source: Kakao\nrelation: INVESTED_IN\ntarget: Kurly"
+    ]
+  },
+  {
+    "question": "Coupang CEO는 누구인가?",
+    "ground_truth": "Kim Beom-seok",
+    "answer": "Coupang CEO는 Kim Beom-seok입니다.",
+    "contexts": [
+      "source: Kim Beom-seok\nrelation: CEO_OF\ntarget: Coupang",
+      "company_name: Coupang",
+      "source: Coupang\nrelation: INVESTED_IN\ntarget: Baemin",
+      "source: Coupang\nrelation: INVESTED_IN\ntarget: Kurly",
+      "company_id: C008\ncompany_name: Coupang\nindustry: E-commerce\nfounded_year: 2010"
+    ]
+  },
+  {
+    "question": "SK Hynix CEO는 누구인가?",
+    "ground_truth": "Park Jung-ho",
+    "answer": "SK Hynix CEO는 Park Jung-ho입니다.",
+    "contexts": [
+      "company_name: SK Hynix",
+      "source: SK Hynix\nrelation: SUBSIDIARY_OF\ntarget: SK Group",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: SK Hynix",
+      "source: Park Jung-ho\nrelation: CEO_OF\ntarget: SK Hynix",
+      "company_id: C004\ncompany_name: SK Hynix\nindustry: Semiconductor\nfounded_year: 1983"
+    ]
+  },
+  {
+    "question": "SK Telecom CEO는 누구인가?",
+    "ground_truth": "Lee Hyun-seok",
+    "answer": "SK Telecom CEO는 Lee Hyun-seok입니다.",
+    "contexts": [
+      "source: Lee Hyun-seok\nrelation: CEO_OF\ntarget: SK Telecom",
+      "company_name: SK Telecom",
+      "source: SK Telecom\nrelation: SUBSIDIARY_OF\ntarget: SK Group",
+      "source: SK Telecom\nrelation: INVESTED_IN\ntarget: Toss",
+      "source: SK Telecom\nrelation: INVESTED_IN\ntarget: Viva Republica"
+    ]
+  },
+  {
+    "question": "Hyundai Motor CEO는 누구인가?",
+    "ground_truth": "Kim Dong-wook",
+    "answer": "Hyundai Motor CEO는 Kim Dong-wook입니다.",
+    "contexts": [
+      "company_name: Hyundai Motor",
+      "source: Hyundai Motor\nrelation: SUBSIDIARY_OF\ntarget: Hyundai Group",
+      "source: Hyundai Motor\nrelation: INVESTED_IN\ntarget: Toss",
+      "source: Hyundai Motor\nrelation: INVESTED_IN\ntarget: Kakao",
+      "source: Kim Dong-wook\nrelation: CEO_OF\ntarget: Hyundai Motor"
+    ]
+  },
+  {
+    "question": "LG Electronics CEO는 누구인가?",
+    "ground_truth": "Choi Min-jun",
+    "answer": "제공된 정보에는 LG Electronics CEO에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: LG Electronics",
+      "source: LG Electronics\nrelation: SUBSIDIARY_OF\ntarget: LG Group",
+      "company_id: C010\ncompany_name: LG Electronics\nindustry: Electronics\nfounded_year: 1958",
+      "source: LG Electronics\nrelation: INVESTED_IN\ntarget: Netmarble",
+      "source: LG Electronics\nrelation: INVESTED_IN\ntarget: NCSoft"
+    ]
+  },
+  {
+    "question": "Han Jong-hee는 어느 회사 CEO인가?",
+    "ground_truth": "Samsung Electronics",
+    "answer": "Han Jong-hee는 Samsung Electronics의 CEO입니다.",
+    "contexts": [
+      "source: Han Jong-hee\nrelation: CEO_OF\ntarget: Samsung Electronics",
+      "source: Han Soo-bin\nrelation: CEO_OF\ntarget: Kurly",
+      "person_id: P017\nperson_name: Han Soo-bin\nuniversity: U002",
+      "person_id: P001\nperson_name: Han Jong-hee\nuniversity: U007",
+      "source: Han Soo-bin\nrelation: GRADUATED_FROM\ntarget: KAIST",
+      "source: Han Jong-hee\nrelation: GRADUATED_FROM\ntarget: Inha University"
+    ]
+  },
+  {
+    "question": "Hwang Sung-woo는 어느 회사 CEO인가?",
+    "ground_truth": "Samsung SDS",
+    "answer": "Hwang Sung-woo는 Samsung SDS의 CEO이다.",
+    "contexts": [
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS",
+      "person_id: P002\nperson_name: Hwang Sung-woo\nuniversity: U001",
+      "source: Hwang Sung-woo\nrelation: GRADUATED_FROM\ntarget: Seoul National University",
+      "document: Viva Republica is a technology company best known for operating financial services and digital innovation platforms. The company develops products that improve accessibility, efficiency, and transparency in financial transactions. Viva Republica invests in data driven technologies, cybersecurity, and digital transformation initiatives. The company collaborates with financial institutions and technology partners to deliver innovative services. Viva Republica continues to expand its",
+      "document: Baemin is a food delivery platform that connects consumers, restaurants, and delivery partners through digital services. The company focuses on improving convenience, operational efficiency, and customer satisfaction within the food service ecosystem. Baemin invests in logistics optimization, artificial intelligence, and platform innovation to enhance service quality. The company supports restaurant partners through digital tools and marketing solutions. Baemin continues to expand its"
+    ]
+  },
+  {
+    "question": "John Rim은 어느 회사 CEO인가?",
+    "ground_truth": "Samsung Biologics",
+    "answer": "John Rim은 Samsung Biologics의 CEO이다.",
+    "contexts": [
+      "source: John Rim\nrelation: CEO_OF\ntarget: Samsung Biologics",
+      "person_id: P003\nperson_name: John Rim\nuniversity: U009",
+      "source: John Rim\nrelation: GRADUATED_FROM\ntarget: Harvard University",
+      "document: Viva Republica is a technology company best known for operating financial services and digital innovation platforms. The company develops products that improve accessibility, efficiency, and transparency in financial transactions. Viva Republica invests in data driven technologies, cybersecurity, and digital transformation initiatives. The company collaborates with financial institutions and technology partners to deliver innovative services. Viva Republica continues to expand its",
+      "document: Baemin is a food delivery platform that connects consumers, restaurants, and delivery partners through digital services. The company focuses on improving convenience, operational efficiency, and customer satisfaction within the food service ecosystem. Baemin invests in logistics optimization, artificial intelligence, and platform innovation to enhance service quality. The company supports restaurant partners through digital tools and marketing solutions. Baemin continues to expand its"
+    ]
+  },
+  {
+    "question": "Choi Soo-yeon은 어느 회사 CEO인가?",
+    "ground_truth": "Naver",
+    "answer": "Choi Soo-yeon은 Naver의 CEO입니다.",
+    "contexts": [
+      "source: Choi Soo-yeon\nrelation: CEO_OF\ntarget: Naver",
+      "source: Choi Soo-yeon\nrelation: GRADUATED_FROM\ntarget: KAIST",
+      "person_id: P010\nperson_name: Choi Min-jun\nuniversity: U008",
+      "person_id: P004\nperson_name: Choi Soo-yeon\nuniversity: U002",
+      "source: Choi Min-jun\nrelation: CEO_OF\ntarget: LG Electronics"
+    ]
+  },
+  {
+    "question": "Chung Shin-a는 어느 회사 CEO인가?",
+    "ground_truth": "Kakao",
+    "answer": "Chung Shin-a는 Kakao의 CEO입니다.",
+    "contexts": [
+      "source: Chung Shin-a\nrelation: CEO_OF\ntarget: Kakao",
+      "person_id: P005\nperson_name: Chung Shin-a\nuniversity: U003",
+      "source: Chung Shin-a\nrelation: GRADUATED_FROM\ntarget: Yonsei University",
+      "document: Viva Republica is a technology company best known for operating financial services and digital innovation platforms. The company develops products that improve accessibility, efficiency, and transparency in financial transactions. Viva Republica invests in data driven technologies, cybersecurity, and digital transformation initiatives. The company collaborates with financial institutions and technology partners to deliver innovative services. Viva Republica continues to expand its",
+      "document: Baemin is a food delivery platform that connects consumers, restaurants, and delivery partners through digital services. The company focuses on improving convenience, operational efficiency, and customer satisfaction within the food service ecosystem. Baemin invests in logistics optimization, artificial intelligence, and platform innovation to enhance service quality. The company supports restaurant partners through digital tools and marketing solutions. Baemin continues to expand its"
+    ]
+  },
+  {
+    "question": "Kim Beom-seok은 어느 회사 CEO인가?",
+    "ground_truth": "Coupang",
+    "answer": "Kim Beom-seok은 Coupang의 CEO이다.",
+    "contexts": [
+      "source: Kim Beom-seok\nrelation: CEO_OF\ntarget: Coupang",
+      "source: Kim Ji-won\nrelation: CEO_OF\ntarget: Toss",
+      "person_id: P018\nperson_name: Kim Ji-won\nuniversity: U003",
+      "person_id: P006\nperson_name: Kim Beom-seok\nuniversity: U009",
+      "person_id: P009\nperson_name: Kim Dong-wook\nuniversity: U005"
+    ]
+  },
+  {
+    "question": "Park Jung-ho는 어느 회사 CEO인가?",
+    "ground_truth": "SK Hynix",
+    "answer": "Park Jung-ho는 SK Hynix의 CEO입니다.",
+    "contexts": [
+      "source: Park Jung-ho\nrelation: CEO_OF\ntarget: SK Hynix",
+      "source: Park Ji-hoon\nrelation: CEO_OF\ntarget: NCSoft",
+      "person_id: P020\nperson_name: Park Ye-rin\nuniversity: U005",
+      "person_id: P012\nperson_name: Park Ji-hoon\nuniversity: U011",
+      "source: Park Ji-hoon\nrelation: GRADUATED_FROM\ntarget: MIT",
+      "person_id: P007\nperson_name: Park Jung-ho\nuniversity: U004"
+    ]
+  },
+  {
+    "question": "Lee Hyun-seok은 어느 회사 CEO인가?",
+    "ground_truth": "SK Telecom",
+    "answer": "Lee Hyun-seok은 SK Telecom의 CEO입니다.",
+    "contexts": [
+      "source: Lee Hyun-seok\nrelation: CEO_OF\ntarget: SK Telecom",
+      "source: Lee Chan-young\nrelation: CEO_OF\ntarget: Baemin",
+      "person_id: P019\nperson_name: Lee Chan-young\nuniversity: U001",
+      "source: Lee Hyun-seok\nrelation: GRADUATED_FROM\ntarget: POSTECH",
+      "person_id: P008\nperson_name: Lee Hyun-seok\nuniversity: U006",
+      "person_id: P011\nperson_name: Lee Seung-ho\nuniversity: U010"
+    ]
+  },
+  {
+    "question": "Kim Dong-wook은 어느 회사 CEO인가?",
+    "ground_truth": "Hyundai Motor",
+    "answer": "Hyundai Motor의 CEO입니다.",
+    "contexts": [
+      "source: Kim Dong-wook\nrelation: CEO_OF\ntarget: Hyundai Motor",
+      "source: Kim Ji-won\nrelation: CEO_OF\ntarget: Toss",
+      "source: Kim Beom-seok\nrelation: CEO_OF\ntarget: Coupang",
+      "person_id: P018\nperson_name: Kim Ji-won\nuniversity: U003",
+      "person_id: P006\nperson_name: Kim Beom-seok\nuniversity: U009",
+      "person_id: P009\nperson_name: Kim Dong-wook\nuniversity: U005"
+    ]
+  },
+  {
+    "question": "Choi Min-jun은 어느 회사 CEO인가?",
+    "ground_truth": "LG Electronics",
+    "answer": "Choi Min-jun은 LG Electronics의 CEO입니다.",
+    "contexts": [
+      "source: Choi Min-jun\nrelation: CEO_OF\ntarget: LG Electronics",
+      "source: Choi Soo-yeon\nrelation: GRADUATED_FROM\ntarget: KAIST",
+      "source: Choi Soo-yeon\nrelation: CEO_OF\ntarget: Naver",
+      "person_id: P010\nperson_name: Choi Min-jun\nuniversity: U008",
+      "person_id: P004\nperson_name: Choi Soo-yeon\nuniversity: U002"
+    ]
+  },
+  {
+    "question": "Samsung Electronics CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Inha University",
+    "answer": "제공된 문맥에는 Samsung Electronics CEO가 어느 대학을 졸업했는지에 대한 정보가 없습니다.",
+    "contexts": [
+      "document: Samsung Electronics is one of the largest technology companies in South Korea and operates globally across multiple business sectors. The company develops semiconductors, smartphones, televisions, displays, home appliances, and digital solutions. Samsung Electronics invests heavily in research and development and maintains partnerships with technology firms worldwide. The company belongs to Samsung Group and collaborates with affiliated companies to strengthen its ecosystem. Samsung",
+      "company_name: Samsung Electronics",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung SDS",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung Biologics",
+      "source: Samsung Electronics\nrelation: SUBSIDIARY_OF\ntarget: Samsung Group",
+      "company_id: C001\ncompany_name: Samsung Electronics\nindustry: Electronics\nfounded_year: 1969"
+    ]
+  },
+  {
+    "question": "Samsung SDS CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Seoul National University",
+    "answer": "제공된 정보에는 Samsung SDS CEO인 Hwang Sung-woo가 어느 대학을 졸업했는지에 대한 내용이 없습니다.",
+    "contexts": [
+      "source: Hwang Sung-woo\nrelation: CEO_OF\ntarget: Samsung SDS",
+      "company_name: Samsung SDS",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung SDS",
+      "source: Samsung SDS\nrelation: SUBSIDIARY_OF\ntarget: Samsung Group",
+      "company_id: C002\ncompany_name: Samsung SDS\nindustry: IT Services\nfounded_year: 1985"
+    ]
+  },
+  {
+    "question": "Samsung Biologics CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Harvard University",
+    "answer": "제공된 정보에는 Samsung Biologics CEO인 John Rim이 어느 대학을 졸업했는지에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: Samsung Biologics",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: Samsung Biologics",
+      "source: Samsung Biologics\nrelation: SUBSIDIARY_OF\ntarget: Samsung Group",
+      "source: John Rim\nrelation: CEO_OF\ntarget: Samsung Biologics",
+      "company_id: C003\ncompany_name: Samsung Biologics\nindustry: Biotechnology\nfounded_year: 2011"
+    ]
+  },
+  {
+    "question": "Naver CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "KAIST",
+    "answer": "해당 정보는 제공된 문맥에 없습니다.",
+    "contexts": [
+      "company_name: Naver",
+      "source: Naver\nrelation: SUBSIDIARY_OF\ntarget: Naver Group",
+      "source: Naver\nrelation: INVESTED_IN\ntarget: Zigzag",
+      "source: Naver\nrelation: INVESTED_IN\ntarget: Musinsa",
+      "source: Naver\nrelation: INVESTED_IN\ntarget: Krafton"
+    ]
+  },
+  {
+    "question": "Kakao CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Yonsei University",
+    "answer": "제공된 정보에는 Kakao CEO가 어느 대학을 졸업했는지에 대한 내용이 없습니다.",
+    "contexts": [
+      "Kakao aims to create integrated digital experiences and strengthen its position within the technology industry.",
+      "source: Kakao\nrelation: SUBSIDIARY_OF\ntarget: Kakao Group",
+      "company_name: Kakao",
+      "source: Kakao\nrelation: INVESTED_IN\ntarget: Zigzag",
+      "source: Kakao\nrelation: INVESTED_IN\ntarget: Musinsa",
+      "source: Kakao\nrelation: INVESTED_IN\ntarget: Kurly"
+    ]
+  },
+  {
+    "question": "Coupang CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Harvard University",
+    "answer": "제공된 정보에는 Coupang CEO인 Kim Beom-seok의 대학 졸업 정보가 포함되어 있지 않습니다.",
+    "contexts": [
+      "company_id: C008\ncompany_name: Coupang\nindustry: E-commerce\nfounded_year: 2010",
+      "company_name: Coupang",
+      "source: Coupang\nrelation: INVESTED_IN\ntarget: Baemin",
+      "source: Coupang\nrelation: INVESTED_IN\ntarget: Kurly",
+      "source: Kim Beom-seok\nrelation: CEO_OF\ntarget: Coupang"
+    ]
+  },
+  {
+    "question": "SK Hynix CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Korea University",
+    "answer": "제공된 정보에는 SK Hynix CEO인 Park Jung-ho가 어느 대학을 졸업했는지에 대한 내용이 없습니다.",
+    "contexts": [
+      "source: Lee Hyun-seok\nrelation: GRADUATED_FROM\ntarget: POSTECH",
+      "company_name: SK Hynix",
+      "source: SK Hynix\nrelation: SUBSIDIARY_OF\ntarget: SK Group",
+      "source: Samsung Electronics\nrelation: INVESTED_IN\ntarget: SK Hynix",
+      "source: Park Jung-ho\nrelation: CEO_OF\ntarget: SK Hynix",
+      "company_id: C004\ncompany_name: SK Hynix\nindustry: Semiconductor\nfounded_year: 1983"
+    ]
+  },
+  {
+    "question": "SK Telecom CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "POSTECH",
+    "answer": "제공된 정보에 따르면 SK Telecom CEO인 Lee Hyun-seok가 어느 대학을 졸업했는지에 대한 내용은 없습니다.",
+    "contexts": [
+      "source: Lee Chan-young\nrelation: GRADUATED_FROM\ntarget: Seoul National University",
+      "company_name: SK Telecom",
+      "source: SK Telecom\nrelation: SUBSIDIARY_OF\ntarget: SK Group",
+      "source: SK Telecom\nrelation: INVESTED_IN\ntarget: Toss",
+      "source: Lee Hyun-seok\nrelation: CEO_OF\ntarget: SK Telecom",
+      "source: SK Telecom\nrelation: INVESTED_IN\ntarget: Viva Republica"
+    ]
+  },
+  {
+    "question": "Hyundai Motor CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Hanyang University",
+    "answer": "제공된 정보에는 Hyundai Motor CEO인 Kim Dong-wook가 어느 대학을 졸업했는지에 대한 내용이 없습니다.",
+    "contexts": [
+      "source: Kim Dong-wook\nrelation: CEO_OF\ntarget: Hyundai Motor",
+      "company_name: Hyundai Motor",
+      "source: Hyundai Motor\nrelation: SUBSIDIARY_OF\ntarget: Hyundai Group",
+      "source: Hyundai Motor\nrelation: INVESTED_IN\ntarget: Toss",
+      "source: Hyundai Motor\nrelation: INVESTED_IN\ntarget: Kakao"
+    ]
+  },
+  {
+    "question": "LG Electronics CEO는 어느 대학을 졸업했는가?",
+    "ground_truth": "Sungkyunkwan University",
+    "answer": "제공된 정보에는 LG Electronics CEO가 어느 대학을 졸업했는지에 대한 내용이 없습니다.",
+    "contexts": [
+      "company_name: LG Electronics",
+      "source: LG Electronics\nrelation: SUBSIDIARY_OF\ntarget: LG Group",
+      "company_id: C010\ncompany_name: LG Electronics\nindustry: Electronics\nfounded_year: 1958",
+      "source: LG Electronics\nrelation: INVESTED_IN\ntarget: Netmarble",
+      "source: LG Electronics\nrelation: INVESTED_IN\ntarget: NCSoft"
+    ]
+  }
+]
